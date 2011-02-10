@@ -1,3 +1,13 @@
 A Kohana module for generating SQL create statements from Sprig models.
 
 Get to work on your app faster by not having to create your own SQL tables when you have already created the models.
+
+Usage:
+Copy spriggen into your modules folder. Make the appriate changes to your bootstrap.php.
+
+Visit the <baseURL>/spriggen/<model_name> 
+Note: Only works when Kohana::DEVELOPMENT is set for safety.
+
+This initial version is extremely limited. It only handles the Auto, Email and Char Sprig fields. 
+
+Fork away and help improve this module!
