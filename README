@@ -1,0 +1,3 @@
+A Kohana module for generating SQL create statements from Sprig models.
+
+Get to work on your app faster by not having to create your own SQL tables when you have already created the models.
